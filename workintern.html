@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workshop & Internship</title>
+    <style>
+            body{
+        background:linear-gradient(to right,#e0eafc,#cfdef3);
+}
+.container{
+    
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+
+}
+.container1{
+    height:100%;
+    width:600px;
+    box-shadow: 0px 0px 10px rgba(0,0,255,0.3);
+    padding:10px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #fff;
+    animation:fadeup 1s ease forwards;
+    transition:transform 0.4s ease, boxshadow 0.4s ease;
+
+    
+}
+@keyframes fadeup{
+    from{
+        opacity:0;
+        transform:translateY(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+
+p{
+    line-height: 1.6;
+}
+
+
+.container1:nth-child(1){
+    animation-delay: 0.2s;
+}
+.container1:nth-child(2){
+    animation-delay: 0.5s;
+}
+.container1:hover{
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,255,0.35);
+}
+
+
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <div class="container1">
+            <h1>Workshop</h1>
+        <p>Arduino
+<b>Arduino</b> is an open-source electronics platform based on easy-to-use hardware and software. It consists of programmable microcontroller boards that can read inputs from sensors and control outputs like lights, motors, and alarms.
+</p>
+</div>
+<div class="container1">
+        <h1>internship</h1>
+        <p>python intern-Fratello internship
+Motivated and detail-oriented Python Developer with a strong foundation in programming, data structures, and web development.
+Achievements/Tasks
+
+</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

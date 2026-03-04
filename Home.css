@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 80px;
+    background-color: #ffffff;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+.nav:hover{
+    background-color: aqua;
+    color:#007bff;
+    border-bottom: 2px solid black;
+    
+}
+input[link]
+{
+    text-decoration: none;
+}
+
+.profile{
+    height: 200px;
+    width: 200px;
+    display:flex;
+    border-radius: 50%;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+
+}
+.profiloinfo {
+
+    text-align: center;
+
+}
+body {
+
+    background:linear-gradient(to right,#e0eafc,#cfdef3);
+}
+a{
+    transition:0.3s;
+    text-decoration: none;
+
+}
+a:hover{
+    color:blue;
+}
+    
